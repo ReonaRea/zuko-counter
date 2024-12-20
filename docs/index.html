@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Title - An Epic Adventure</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .hero {
+            height: 100vh;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .section {
+            padding: 80px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-box {
+            background: #f5f5f5;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .gallery-item {
+            background: #e0e0e0;
+            aspect-ratio: 16/9;
+        }
+        
+        .cta-section {
+            text-align: center;
+            background: #e8e8e8;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #4a4a4a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            color: #333;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        
+        .price {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        
+        .reviews {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .review-box {
+            background: #f5f5f5;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>Game Title</h1>
+            <p>An Epic Adventure Awaits</p>
+            <div class="price">$29.99</div>
+            <a href="#" class="button">Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <img src="/api/placeholder/100/100" alt="Feature 1">
+                    <h3>Epic Gameplay</h3>
+                    <p>Experience groundbreaking mechanics and innovative gameplay elements.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="/api/placeholder/100/100" alt="Feature 2">
+                    <h3>Rich Story</h3>
+                    <p>Immerse yourself in a deeply compelling narrative with memorable characters.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="/api/placeholder/100/100" alt="Feature 3">
+                    <h3>Beautiful World</h3>
+                    <p>Explore stunning environments crafted with attention to detail.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <h2>Screenshots & Trailers</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/338" alt="Screenshot 1" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/338" alt="Screenshot 2" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/338" alt="Screenshot 3" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/338" alt="Screenshot 4" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <h2>Player Reviews</h2>
+            <div class="reviews">
+                <div class="review-box">
+                    <p>"An absolute masterpiece that redefines the genre."</p>
+                    <p>- GameReview Magazine</p>
+                </div>
+                <div class="review-box">
+                    <p>"Stunning visuals and engaging gameplay make this a must-play."</p>
+                    <p>- Gaming Weekly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section cta-section">
+        <div class="container">
+            <h2>Start Your Adventure Today</h2>
+            <p>Join thousands of players in this epic journey</p>
+            <a href="#" class="button">Purchase Now</a>
+        </div>
+    </div>
+</body>
+</html>
